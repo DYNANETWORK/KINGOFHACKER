@@ -1,0 +1,44 @@
+{
+    "name": "Hack Bot",
+    "description": "A bot CAN DO ANYTHING",
+    "logo": "",
+    "keywords": [
+        "TELETHON",
+        "DYNA HACKER",
+        "Telegram Bot",
+        "piro bolte",
+        "YOUR DAD"
+    ],
+    "website": "https://t.me/DYNA_SUPPORT",
+    "success_url": "https://t.me/DYNA_SUPPORT",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "You Telegram Bot Token from @BotFather",
+            "value": "5485856726:AAHa6iPiEx8tO9rK50NsrxcxBHuVMEnBRCI"
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": "a418fd5c4497ca9986f31c314da6f170"
+        },
+        "YOUR_NAME": {
+            "description": "Your Name Plz",
+            "value": "Hacker"
+        },
+        "APP_ID": {
+            "description": "Your API ID from my.telegram.org",
+            "value": "2634874"
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
