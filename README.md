@@ -1,4 +1,4 @@
-# Powered By @Murat_30_God
+# Powered By @DYNA_OPTIMISE
 
 ## ⚠️ Note : Dont Try To Missuse This Repo
 
